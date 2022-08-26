@@ -1,0 +1,54 @@
+html,body{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(-30deg, rgb(125, 125, 236),rgb(195, 240, 195))
+
+}
+
+.wrap {
+width: 1200%;
+text-align: center;
+position: relative;
+
+}
+
+.wrap .banner img {
+    margin: auto;
+    opacity: .4;
+}
+
+.icon{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 300px 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icon img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 8px solid rgb(131, 84, 131);
+    transition: .3s;
+}
+
+.icon img:hover{
+    transform: translateY(-20px);
+    box-shadow:8px 16px 7px 1px  rgb(95, 61, 95);
+}
+
+.icon img:active{
+    box-shadow:  5em 1em gold inset;
+    box-shadow: none;
+    transform: translateY(0px);
+    
+}
